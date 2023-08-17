@@ -1,0 +1,119 @@
+    .principal {
+        width: 80%;
+    }
+    
+    .central {
+        margin: 0 auto;
+    }
+
+    .backgroundsite {
+        background-image: url("https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2020/12/21204711/peliculas-para-2020.jpg?fit=1280%2C853&ssl=1");
+		width: auto;
+    }
+
+    .formatacao {
+        color: white;
+        background: black;
+        font-size: 40px;
+        padding: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        text-align: center;
+    }
+	
+    .formatacao2 {
+        color:white;
+        background: black;
+        font-size: 30px;
+        padding: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+	
+    .formatacao3 {
+        color: white;
+        background: black;
+        font-size: 24px;
+        padding: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        text-align: justify;
+    }
+
+    #menu {
+        color:white;
+        background: black;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-color: #3d3d3d #3d3d3d #3d3d3d #3d3d3d;
+        border-width: 15px 15px 15px 15px;
+        border-style:  solid solid solid solid;
+        text-align: center;
+    }
+
+    #menu2 {
+        color: white;
+        background: black;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-color: #3d3d3d #3d3d3d #3d3d3d #3d3d3d;
+        border-width: 15px 15px 15px 15px;
+        border-style:  solid solid solid solid;
+        text-align: justify;
+    }
+	
+.opcoes-ingresso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botao-ingresso {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.botao-ingresso:hover {
+    background-color: #45a049;
+}
+.botao-ingresso:hover {
+    background-color: #45a049;
+}
+
+    a:link {
+        text-decoration: none; /*Removemos o sublinhado*/
+        padding:10px; /*Adicionamos um espaçamento de 10px em TOP, BOTTOM, RIGHT e LEFT*/
+      }
+     
+      /* Quando já clicamos no link anteriormente */
+      a:visited {
+        color: white;
+      }
+     
+      /* Quando passamos o mouse sobre o link */
+      a:hover {
+        color: orange;
+        text-decoration: none; /*Removemos o sublinhado*/
+      }
+     
+      /* Quando clicamos no link */
+      a:active {
+
+        text-decoration: none; /*Removemos o sublinhado*/
+        padding:10px; /*Adicionamos um espaçamento de 10px em TOP, BOTTOM, RIGHT e LEFT*/
+    } 
